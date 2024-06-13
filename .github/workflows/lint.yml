@@ -15,7 +15,7 @@ jobs:
           # Ensure full list of changed files within `super-linter`
           fetch-depth: 0
       - name: Run linters
-        uses: github/super-linter@v4
+        uses: github/super-linter@v6
         env:
           DEFAULT_BRANCH: ${{ github.base_ref }}
           EDITORCONFIG_FILE_NAME: .editorconfig
